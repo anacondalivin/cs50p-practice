@@ -1,4 +1,1 @@
-🐍
-
-# how to run any file
-python filename.py
+python journey
