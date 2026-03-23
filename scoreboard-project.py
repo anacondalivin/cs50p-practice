@@ -9,7 +9,7 @@ away_score = int(input("What is the Away team score?").strip())
 print(" ------ SCOREBOARD ------")
 print(f"Home: {name} | Score: {home_score}")
 print(f"Away: {opponent} | Score: {away_score}")
-
+# commentator reacts diffrently depending on whos's winning
 if home_score > away_score:
     print(f"{name} is winning")
     if home_score - away_score >= 21:
@@ -19,4 +19,4 @@ elif away_score > home_score:
     if away_score - home_score >= 21:
         print("We got ourselves a blowout!")
 else:
-    print("We got ourselves a tie?")
+    print("We got ourselves a tie?") 
