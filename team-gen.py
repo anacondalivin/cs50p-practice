@@ -11,6 +11,6 @@ elif name == "jb":
 elif name =="cade":
     print("Pistons")
 else:
-    print("Dont know him, must be no good cause i know everybody")
+    print("Dont know him, must be no good because I know everybody.")
 
 
