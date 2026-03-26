@@ -1,6 +1,3 @@
-# function = A block of reusable code
-#           place () after the function name to invoke it
-
 def parrot_song (name, number):
     print(f"Grandrising to you {name}")
     print(f"today is your {number}th birthday ")
@@ -17,8 +14,6 @@ def display_invoice(username, amount, due_data):
     
 display_invoice("Customer", 2000.00, "04/21")    
 
-# return = statement used to end a function
-#          and send a result back to caller
 
 def add(a,b):
     c = a + b
